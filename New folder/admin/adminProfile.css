@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  
+}
+.main{
+  display: flex;
+}
+
+.grid-con {
+ 
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 500px 1fr 1fr;
+
+
+  
+  
+}
+.grid-con .editBtn{
+  border: none;
+  width: 220px ;
+  height:   40px;
+  background-color: #7f1092;
+  border-radius: 5px;
+  color: white;
+  align-items: center;
+}
+.edit-input{
+   
+  border: none;
+  border-color: none;
+  border-radius: 5px;
+  width: 270px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.grid-item {
+  padding: 15px;
+  text-align: center;
+  border: none !important;
+  box-shadow: none !important;
+  text-align: left;
+  font-size: 17px;
+
+}
+.grid-item .header{
+  font-size: 35px;
+}
+
+
+.action-button {
+  grid-column: span 2;
+  
+}
+.grid-item .button{
+ 
+  border: none;
+  width: 220px ;
+  height:   40px;
+  background-color: #7f1092;
+  border-radius: 5px;
+}
+.grid-item h1{
+  font-size: 30px;
+}
+/* Container to position the profile picture and edit icon */
+.profile-container {
+  position: relative;
+  display: inline-block; /* Ensure proper sizing of the container */
+}
+
+/* Profile picture */
+.profile-pic img {
+  width: 150px; /* Adjust the size of the profile picture as needed */
+  border-radius: 50%;
+}
+
+/* Edit icon */
+.edit-icon {
+  position: absolute;
+  bottom: 5px; /* Adjust the vertical position */
+  right: 5px; /* Adjust the horizontal position */
+  background-color: #fff; /* Background color of the edit icon */
+  border: 2px solid #fff; /* Border color of the edit icon */
+  border-radius: 50%; /* Make the edit icon circular */
+  padding: 5px; /* Adjust the padding */
+  font-size: 12px; /* Adjust the font size */
+  color: #000; /* Text color of the edit icon */
+}
+.grid-item .edit-profile-btn{
+  color: rgb(131, 15, 151);
+}
+.grid-item  a:hover{
+  opacity: 0.8;
+}
+.grid-item .edit-profile-btn{
+  text-decoration: none;
+}

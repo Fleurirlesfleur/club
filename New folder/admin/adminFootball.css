@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    padding: 0;
+    background: linear-gradient(to right,#fff ,#dea7e8);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  
+  header {
+    background-color: #dea7e8;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .link a:hover{
+    text-decoration: none;
+    color:#613868
+    
+  }
+   
+  .logo img{
+    width: 200px;
+    height: auto;
+  }
+  .icon img{
+    
+  }
+  .icon img :hover{
+   text-decoration: none;
+  }
+   a, .dropbtn{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  .dropbtn img{
+    width: 50px;
+    height: auto;
+  }
+  a :hover , .dropdown:hover .dropbtn{
+    background-color: #dea7e8;
+  }
+  .dropdown{
+    display: inline-block;
+  }
+  .dropdown-content{
+    
+    display: none;
+    position: absolute;
+    
+    min-width : 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #dea7e8;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .hero {
+   
+    color: #000000;
+    text-align: center;
+    padding: 100px 20px;
+    
+    
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align :center;
+  }
+  .hero h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+  
+  }
+  
+  .about {
+    
+    padding: 40px;
+    text-align: center;
+  }
+  
+  footer {
+    
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: center;
+  
+    width: 100%;
+  }
+  
+  table{
+    width:100%;
+    border-collapse: collapse;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    
+  }
+  table a{
+    color: #000000;
+    text-decoration: none;
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+  }
+  .icon :hover{
+    background-color: #f5f5f5 ;
+  }
+  th,td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th{
+    background-color: #dea7e8;
+    color: white;
+  }
+  tr:hover{
+    background-color: #f5f5f5;
+  
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  h1 {
+    padding:30px;
+    color: #000000;
+    text-align: center;
+    font-size: 22px;
+  }
+  .grid-container {
+    columns: 5 200px;
+    column-gap: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+    div {
+      width: 150px;
+      margin: 0 1.5rem 1.5rem 0;
+      display: inline-block;
+      width: 100%;
+      border: solid 2px black;
+      padding: 5px;
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+      border-radius: 5px;
+      transition: all .25s ease-in-out;
+      &:hover img {
+        filter: grayscale(0);
+      }
+      &:hover {
+        border-color: #dea7e8;
+      }
+      img {
+        width: 100%;
+        filter: grayscale(100%);
+        border-radius: 5px;
+        transition: all .25s ease-in-out;
+      }
+      p {
+        margin: 5px 0;
+        padding: 0;
+        text-align: center;
+      
+      }
+    }
+  }
+  <ul>
+              <li class="linkLeft"><img src="newLogo1.png" ></li>
+              <li class="link"><a href="#">Home</a></li>
+              <li class="link"><a href="#">About Us</a></li>
+              <li class="link"><a href="#">Events</a></li>
+              <li class="link"><a href="#">Contact</a></li>
+              <li class="linkRight"><img src="reProfileIcon.png" ></li>
+          </ul>
+  
+          <li class="link"><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropbtn"><img src="reProfileIcon.png" class="linkRight"></a>
+                <div  class="dropdown-content">
+                  <a href="#">Profile</a>
+                  <a href="#">LogOut</a>
+                </div>
+              </li>
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Inter", sans-serif;
+ 
+
+}
+.input{
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0cef7;
+  
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 8rem 5rem;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 7px 0px -3px rgba(245, 245, 245, 0.75);
+  -webkit-box-shadow: 5px 7px 0px -3px rgba(245, 245, 245, 0.75);
+  -moz-box-shadow: 5px 7px 0px -3px rgba(245, 245, 245, 0.75);
+}
+
+.container h2 {
+  font-size: 33px;
+  padding-bottom: 30px;
+  color: #530c5f;
+  text-align: center;
+}
+
+.input-box {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #530c5f;
+  outline: none;
+  &:focus {
+    border: 2px solid #460c50;
+  }
+}
+
+.signin-btn {
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: #9e4eac;
+  color: white;
+  &:hover {
+    background-color: #530c5f;
+    transition: all 300ms;
+  }
+}
+
+.signup-link {
+  text-decoration: none;
+  color: #9e4eac;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    color: #530c5f;
+  }
+}
+.signin p{
+    color: #530c5f;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}

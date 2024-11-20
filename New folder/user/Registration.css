@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+body{
+    background: liner-gradient(to right,#dea7e8 0%, #d1ff54 50%,#a8e8cd 99%);
+}
+.submit-form{
+    font-family : "Roboto",sans-serif;
+    width: 650px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.form-header{
+    background-color: #dea7e8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.form-header{
+    font-size: 30px;
+    text-align :center;
+    color: #230029;
+    padding : 10px 10px 10px 10px;
+    border-bottom: 1px solid #cccccc;
+    
+}
+.form-body{
+    padding : 10px 40px;
+    color: #230029;
+    background-color: #eed7f3;
+}
+.form-group{
+    margin-bottom: 20px;
+
+}
+.form-body .label-title{
+    color: #230029;
+    font-size: 18px;
+    
+
+}
+
+.form-input{
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;;
+    color: #230029;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: #fdf0ff;
+    outline: none;
+    
+}
+.radioBtn{
+   
+    font-size: 15px;
+    color:#230029;
+    background:#fdf0ff;
+   
+  
+}
+
+.form-footer{
+    clear:both;
+}
+.submit-form .form-footer{
+    background-color: #eed7f3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding : 10px 40px;
+    text-align: right;
+    border-top:1px solid #cccccc;
+}
+.form-footer span{
+    float :left;
+    margin-top : 10px;
+    color: #999;
+    font-style : italic;
+    font-weight: thin;
+}
+.btn{
+    display:inline-block;
+    padding : 10px 20px;
+    background-color: #c933e4;
+    font-size: 17px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+btn:hover{
+    background-color: #dbbde0;
+    color:white;
+}
